@@ -1,9 +1,0 @@
-{
-  "name": "telnx-webhook",
-  "version": "1.0.0",
-  "type": "module",
-  "main": "api/webhook.js",
-  "scripts": {
-    "start": "vercel dev"
-  }
-}
