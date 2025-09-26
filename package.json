@@ -1,9 +1,13 @@
 {
   "name": "telnx-webhook",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "start": "node api/webhook.js"
   },
-  "dependencies": {}
+  "dependencies": {
+    "googleapis": "^140.0.1",
+    "chrono-node": "^2.7.7"
+  }
 }
 
