@@ -1,9 +1,25 @@
 {
   "name": "telnx-webhook",
   "version": "1.0.0",
+  "scripts": {
+    "start": "node api/webhook.js"
+  }
+}
+{
+  "name": "telnx-webhook",
+  "version": "1.0.0",
+<<<<<<< HEAD
   "type": "module",
   "main": "api/webhook.js",
   "scripts": {
     "start": "vercel dev"
   }
 }
+=======
+  "scripts": {
+    "start": "node api/webhook.js"
+  }
+}
+
+
+>>>>>>> 91714f9 (Initial commit for Vercel webhook)
